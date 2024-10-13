@@ -1,38 +1,91 @@
 
-        <!DOCTYPE html>
-        <html lang="nl">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="description" content="Project 1">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="keywords" content="HTML, CSS">
-            <meta name="author" content="Femke Gielen">
-            <link rel="stylesheet" href="../CSS/opmaak.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-            <title>Contact / Femke Gielen</title>
-        </head>
-        <body>
-        
-            <title>Femke Gielen</title>
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Project 1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="author" content="Femke Gielen">
+        <link rel="stylesheet" href="../CSS/opmaak.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+            rel="stylesheet">
+            <link rel="icon" href="../afbeeldingen/favicon.ico" type="image/gif" sizes="16x16">
+        <title>Contact / Femke Gielen</title>
+    </head>
+    <body>
 
-            <div id="femke">
-                <img src="../afbeeldingen/mezelf.jpeg" alt="Afbeelding van Femke Gielen" title="femke gielen">
+        <title>Femke Gielen</title>
+
+        <div>
+            <a href="https://www.linkedin.com/in/femke-gielen-0ab9621ba/"
+                target="_blank">
+
+                <img src="../afbeeldingen/LinkedIn.png" alt="LinkedIn link"
+                    title="LinkedIn" id="LinkedIn">
+            </a>
+            <a href="mailto:femkegielen@outlook.com" target="_blank">
+
+                <img src="../afbeeldingen/outlook.png" alt="emial link"
+                    title="email outlook" id="outlook">
+            </a>
+
+            <a href="https://www.facebook.com/Troblester/" target="_blank">
+
+                <img src="../afbeeldingen/facebook.png" alt="facebook link"
+                    title="facebook" id="facebook">
+            </a>
+        </div>
+
+   
+
+        <img src="../afbeeldingen/bloem.png" alt="tekening bloemen"
+            title="bloemen" id="bloemlinks">
+
+        <img src="../afbeeldingen/bloem.png" alt="tekening bloemen"
+            title="bloemen" id="bloemrechts">
+            <div id="contactTekst">
+                <h1>Contact</h1>
             </div>
-        
-                <ul>
-                    <li>
-                        <a href="index.html">HOME</a>
-                    </li>
-                    <li> <a id="CV" href="CV.html">CV</a></li>
-                    <li>
-                        <a href="hobby.html">HOBBY'S</a></li>
-                    <li>
-                        <a href="ervaring.html">ERVARING</a></li>
-                    <li> <a href="contact.html">CONTACT</a></li>
-                </ul>
-        
+        <div id="blok">
+ 
+            <div>
+                <input type="email" id="infopad" class="infoOpvragen" name="email"
+                    placeholder="e-mailadres">
+                <input type="text"class="infoOpvragen" name="naam" placeholder="naam">
+                <input type="text" class="infoOpvragen" name="onderwerp" placeholder="onderwerp">
             </div>
-        </body>
-        </html>
+
+            <div id="blokcontact">
+                <textarea name="reactie" id="reactie" cols="60">
+                    </textarea>
+
+                    <input type="submit" id="submit" name="submit">
+
+            </div>
+        </div>
+
+        <div id="menup">
+            
+        <div id="femke">
+            <img src="../afbeeldingen/mezelf.jpeg"
+                alt="Afbeelding van Femke Gielen" title="femke gielen">
+        </div>
+
+            <ul>
+                <li>
+                    <a class="menu" href="index.html">HOME</a>
+                </li>
+                <li> <a class="menu" id="CV" href="CV.html">CV</a></li>
+                <li>
+                    <a class="menu" href="hobby.html">HOBBY'S</a></li>
+                <li>
+                    <a class="menu" href="ervaring.html">ERVARING</a></li>
+                <li> <a class="menu" href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
