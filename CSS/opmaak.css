@@ -136,6 +136,7 @@ td p {
   font-family: 'playfair display';
   border: 2px solid black;
   padding: 10px;
+  height: 290px;
 }
 tr img{
   height: 300px;
@@ -145,6 +146,7 @@ tr img{
   float: left;
   position:static;
 }
+
 
 #hobbyNav ul{
   display: inline-block;
@@ -160,7 +162,7 @@ tr img{
 }
 
 .logo{
-  height: 200px;
+  height: 300px;
   width: 200px;
   object-fit:scale-down;
   background-color: white;
